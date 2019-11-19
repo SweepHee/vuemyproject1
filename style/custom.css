@@ -47,7 +47,10 @@ table tbody tr {
 table tbody tr td {
     text-align: left;
     background-color: white;
-    padding: 30px 30px;
+    padding: 10px 30px;
+    height: 120px;
+    font-size: 22px;
+    vertical-align: top;
 }
 
 table tbody tr.text-center td {
@@ -56,7 +59,7 @@ table tbody tr.text-center td {
 
 table tbody tr td ul {
     list-style-type:none;
-    min-height: 400px;
+    min-height: 500px;
 }
 table tbody tr td ul li {
     /*margin-bottom: 15px;*/

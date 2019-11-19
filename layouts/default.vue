@@ -5,17 +5,17 @@
                 <ul>
                     <li>
                         <nuxt-link to="/">
-                            <v-icon medium style="color: #e2e2db; text-shadow: 5px 5px 5px gray;">mdi-home</v-icon>
+                            <v-icon large style="color: #e2e2db; text-shadow: 5px 5px 5px gray;">mdi-human-greeting</v-icon>
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="/about">
-                            <v-icon medium style="color: #e2e2db; text-shadow: 5px 5px 5px gray;">mdi-message-text</v-icon>
+                        <nuxt-link to="/calendar">
+                            <v-icon large style="color: #e2e2db; text-shadow: 5px 5px 5px gray;">mdi-calendar-check</v-icon>
                         </nuxt-link>
                     </li>
                     <li class="on">
-                        <nuxt-link to="/">
-                            <v-icon medium style="color: #e2e2db; text-shadow: 5px 5px 5px gray;">mdi-email</v-icon>
+                        <nuxt-link to="/todo">
+                            <v-icon large style="color: #e2e2db; text-shadow: 5px 5px 5px gray;">mdi-book-open</v-icon>
                         </nuxt-link>
                     </li>
                 </ul>

@@ -3,6 +3,7 @@
         <v-col cols="12" lg="2" />
         <v-col cols="12" lg="8">
             <article>
+                <Calendar />
             </article>
             <article>
             </article>
@@ -12,12 +13,10 @@
 </template>
 
 <script>
-import Post from "~/components/post.vue";
 import Calendar from "~/components/calendar.vue";
 
     export default {
         components: {
-            Post,
             Calendar,
         },
     }

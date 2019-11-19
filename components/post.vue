@@ -15,9 +15,9 @@
                     </th>
                     <td>
                         <ul>
-                            <li><nuxt-link to="/"><strong>1</strong> 의미없는 텍스트</nuxt-link></li>
+                            <li><strong>1</strong> {{id}}</li>
                             <li>
-                                <v-btn style="background-color:#3949AB;" fab small dark>
+                                <v-btn @click="newPost" style="background-color:#3949AB;" fab small dark>
                                     <v-icon style="color:#ffffff">mdi-pencil</v-icon>
                                 </v-btn>
                             </li>
@@ -31,7 +31,16 @@
 
 <script>
     export default {
-
+        data () {
+            return {
+                id : "",
+            }
+        },
+        methods: {
+            newPost() {
+                alert("안돼!");
+            }
+        }
     }
 </script>
 
